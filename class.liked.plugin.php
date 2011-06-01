@@ -19,7 +19,7 @@ class LikedPlugin extends Gdn_Plugin {
 		$Sender->Head->AddTag('meta', array('content' => Gdn_Url::Request(true, true, true), 'property' => 'og:url'));
 		$Sender->Head->AddTag('meta', array('content' => C('Garden.Title'), 'property' => 'og:site_name'));
 		$Sender->Head->AddTag('meta', array('content' => 'article', 'property' => 'og:type'));
-		$Sender->addJsFile('http://connect.facebook.net/en_US/all.js#xfbml=1');
+		$Sender->addJsFile('http://connect.facebook.net/fr_FR/all.js#xfbml=1');
 	}
 	
 	public function DiscussionController_BeforeDiscussion_Handler(&$Sender) {
